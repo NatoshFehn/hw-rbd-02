@@ -28,7 +28,7 @@ JOIN sakila.address AS addr ON
 JOIN sakila.city city ON
  	addr.city_id = city.city_id
 ```
-![Снимок1](https://github.com/NatoshFehn/hw-rdb-02/blob/main/Снимок1.png)  
+![Снимок1](https://github.com/NatoshFehn/hw-rbd-02/blob/main/Снимок1.png)  
 
 ### Задание 2
 
@@ -44,7 +44,7 @@ where
 	from
 		sakila.film f )
 ```  
-![Снимок2](https://github.com/NatoshFehn/hw-rdb-02/blob/main/Снимок2.png)  
+![Снимок2](https://github.com/NatoshFehn/hw-rbd-02/blob/main/Снимок2.png)  
 
 
 ### Задание 3
@@ -59,4 +59,4 @@ group by date_format(p.payment_date,'%Y-%m')
 order by count(*) desc
 LIMIT 1
 ```  
-![Снимок3](https://github.com/NatoshFehn/hw-rdb-02/blob/main/Снимок3.png)  
+![Снимок3](https://github.com/NatoshFehn/hw-rbd-02/blob/main/Снимок3.png)  
